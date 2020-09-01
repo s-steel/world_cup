@@ -8,7 +8,7 @@ class PlayerTest < MiniTest::Test
     player = Player.new({name: "Luka Modric", position: "midfielder"})
 
     assert_instance_of Player, player
-  end 
+  end
 
   def test_has_attributes
     player = Player.new({name: "Luka Modric", position: "midfielder"})
